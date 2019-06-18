@@ -11,6 +11,8 @@
 		9936272322ADF3E500980AE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9936272222ADF3E500980AE6 /* Assets.xcassets */; };
 		9936272622ADF3E500980AE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9936272422ADF3E500980AE6 /* LaunchScreen.storyboard */; };
 		9936272922ADF3E500980AE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9936272822ADF3E500980AE6 /* main.m */; };
+		9938AD8B22AE059300B37EFD /* ClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9938AD8A22AE059300B37EFD /* ClockView.m */; };
+		9938AD9122AE061500B37EFD /* ClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9938AD9022AE061500B37EFD /* ClockViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,10 @@
 		9936272522ADF3E500980AE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9936272722ADF3E500980AE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9936272822ADF3E500980AE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9938AD8922AE059300B37EFD /* ClockView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClockView.h; sourceTree = "<group>"; };
+		9938AD8A22AE059300B37EFD /* ClockView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockView.m; sourceTree = "<group>"; };
+		9938AD8F22AE061500B37EFD /* ClockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClockViewController.h; sourceTree = "<group>"; };
+		9938AD9022AE061500B37EFD /* ClockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,10 @@
 			children = (
 				9936271F22ADF3E300980AE6 /* AppDelegate.h */,
 				9936272022ADF3E300980AE6 /* AppDelegate.m */,
+				9938AD8F22AE061500B37EFD /* ClockViewController.h */,
+				9938AD9022AE061500B37EFD /* ClockViewController.m */,
+				9938AD8922AE059300B37EFD /* ClockView.h */,
+				9938AD8A22AE059300B37EFD /* ClockView.m */,
 				9936272222ADF3E500980AE6 /* Assets.xcassets */,
 				9936272422ADF3E500980AE6 /* LaunchScreen.storyboard */,
 				9936272722ADF3E500980AE6 /* Info.plist */,
@@ -132,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9938AD8B22AE059300B37EFD /* ClockView.m in Sources */,
 				9936272922ADF3E500980AE6 /* main.m in Sources */,
 				9936272122ADF3E300980AE6 /* AppDelegate.m in Sources */,
+				9938AD9122AE061500B37EFD /* ClockViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
